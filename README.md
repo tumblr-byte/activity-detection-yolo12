@@ -8,6 +8,8 @@ This project demonstrates **human activity detection** using a YOLO12 model. It 
 
 The model used in this project is the pretrained file: `yolo12n.pt`.
 
+https://github.com/user-attachments/assets/65cc490a-d571-4640-98f4-0d81878fad6e
+
 ## Dataset Structure
 
 The dataset used is fall_dataset, organized as follows:
