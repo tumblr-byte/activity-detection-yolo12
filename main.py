@@ -10,9 +10,9 @@ import yaml
 # PART 1: Create data.yaml file
 # -------------------------------
 
-# Paths to your dataset folders (adjust these to your environment)
-train_path = "/kaggle/input/fall-detection-dataset/fall_dataset/images/train/"
-val_path = "/kaggle/input/fall-detection-dataset/fall_dataset/images/val/"
+# IMPORTANT: Change these paths to match your dataset location
+train_path = "your/dataset/path/images/train/"
+val_path = "your/dataset/path/images/val/"
 
 # Define your classes
 classes = ["Fall Detected", "Walking", "Sitting"]
@@ -62,8 +62,8 @@ results = model.train(
 model = YOLO("runs/train/yolo12n_model/weights/best.pt")
 
 # Choose either a video or image
-video_path = "/content/7925403-uhd_2160_3840_24fps.mp4"
-image_path = "/content/test_image.jpg"
+video_path = "path/to/your/test_video.mp4"     # CHANGE THIS PATH
+image_path = "path/to/your/test_image.jpg"     # CHANGE THIS PATH
 
 # Example: use video
 source_path = video_path   # or switch to image_path if you want
@@ -80,6 +80,7 @@ if source_path.endswith((".jpg", ".png", ".jpeg")):
     print("Image processed. Predictions saved in the 'runs/predict' folder.")
 else:
     print("Video processed. Predictions saved in the 'runs/predict' folder.")
+
 
 
 
