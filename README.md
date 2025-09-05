@@ -19,6 +19,8 @@ git clone https://github.com/username/activity-detection-yolo12.git
 cd activity-detection-yolo12
 
 
+---
+
 
 # **2. Install dependencies**
 pip install -r requirements.txt
