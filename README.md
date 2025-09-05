@@ -54,6 +54,10 @@ The main.py script handles everything automatically:
 - **Use a smaller batch size** if GPU memory is limited
 - **Check the `runs/train/` folder** to see training results and saved weights
 
+## Live Webcam Detection
+
+Want to use your webcam for real-time detection? Once you're comfortable with images and videos, just ask! I can show you how to modify the script for live webcam detection.
+
 ## Contact
 
 If you find any issues, mistakes, or have questions, feel free to reach out by opening an issue in this repository. I'd be happy to help!
