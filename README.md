@@ -11,21 +11,6 @@ The model used in this project is the pretrained file: `yolo12n.pt`.
 
 ---
 
-# **Installation**
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/username/activity-detection-yolo12.git
-cd activity-detection-yolo12
-
-
----
-
-
-# **2. Install dependencies**
-pip install -r requirements.txt
-
-
 # **Dataset Structure**
 
 The dataset used is fall_dataset, organized as follows:
@@ -48,6 +33,27 @@ The dataset used is fall_dataset, organized as follows:
 - **Start with fewer epochs** to quickly test the setup.  
 - **Use a smaller batch size** if GPU memory is limited.  
 - **Check the `runs/train/` folder** to see training results and saved weights.  
+
+
+
+
+
+# **Installation**
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/username/activity-detection-yolo12.git
+cd activity-detection-yolo12
+
+
+---
+
+
+# **2. Install dependencies**
+pip install -r requirements.txt
+
+
+
 
 
 # **Usage**
