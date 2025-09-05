@@ -24,13 +24,14 @@ The dataset used is fall_dataset, organized as follows:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/username/activity-detection-yolo12.git
+git clone https://github.com/tumblr-byte/activity-detection-yolo12.git
 cd activity-detection-yolo12
 ```
 
 ### 2. Install dependencies
 ```bash
-pip install ultralytics pyyaml
+pip install -r requirements.txt
+
 ```
 
 ### 3. Run the script
